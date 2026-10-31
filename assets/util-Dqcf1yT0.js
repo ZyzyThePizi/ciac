@@ -1,0 +1,1 @@
+function e(e,t){if(e==null)return t;try{return JSON.parse(e)}catch{return t}}export{e as t};
