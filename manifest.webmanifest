@@ -1,0 +1,25 @@
+{
+  "name": "CIAC · CatchItAll Collective",
+  "short_name": "CIAC",
+  "description": "A Pokémon TCG collection vault with per-language Cardmarket prices. Offline-first, no account.",
+  "id": "/ciac/",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone"],
+  "orientation": "any",
+  "background_color": "#07080c",
+  "theme_color": "#07080c",
+  "lang": "hu",
+  "categories": ["lifestyle", "entertainment", "utilities"],
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml" },
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Szkennelés / Scan", "url": "./scan", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] },
+    { "name": "Gyűjtemény / Collection", "url": "./collection", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] }
+  ]
+}
