@@ -1,0 +1,1 @@
+var e=typeof matchMedia==`function`&&(matchMedia(`(pointer: coarse)`).matches||Math.min(screen.width,screen.height)<800);export{e as t};
